@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-11/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/main.js"></script>
+    <title>Hotel</title>
+</head>
+<body onload="loaddata()">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand pr-5 logo" href="index.html">Hí Booking </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0">
+                <a name="" id="" class="btn btn-primary" href="#" role="button" onclick="loadListBook()">ListBooking
+                </a>
+            </form>
+        </div>
+    </nav>
+    <section class="fashion fashion-men" id="main" style="display: block;">
+        <div class="container">
+            <div class="header">
+                <h2 id="category">BookHotel.vn</h2>
+            </div>
+            <div class="body">
+                <div class="row mt-5" id="ttnam">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="listBooking" class="p-5" style="display: none;">
+        <div class="container">
+            <div id="list" class="pt-4">
+                <table class="table table-hover table-bordered" id="listData">
+                    <tbody>
+                        <tr class="table-primary table-header">
+                            <th>Tên khách sạn</th>
+                            <th>Địa chỉ</th>
+                            <th>Ảnh</th>
+                            <th>Giá</th>
+                            <th>Số lượng phòng</th>
+                            <th>Xóa</th> 
+                            <th>Đặt</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Ho Thi Sim
+            <br>Nick Facebook: Hí Anita 
+            <br>Phone Number: 0962105932
+        </p>
+    </footer>
+</body>
+</html>
